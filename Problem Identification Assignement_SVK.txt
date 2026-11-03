@@ -1,0 +1,27 @@
+A company works with number of employees, all the works are dependents on the employees. Evenif one of the employees resign the job immediately then assigned work will be not finished at thetime, so delivery of the project to the clients will be delayed. Company planned to make solution forthis, they want to know which employee may resign next. If they know previously, they can arrangealternative to avoid such problem. 
+
+As an AI Engineer you must give Solution to this.
+A) How will you achieve this in AI?
+B) Find out the 3 -Stage of Problem Identification
+C) Name the project
+D) Create the dummy Dataset.
+
+--------------------------------------------------------------------------------------------------
+
+As an AI Engineer, 
+
+A) I will try to provide solution based on the employee's feedback on the various factors like Work recogonition, work life balance, efforts, knowledge transfer, trainings, salary,etc. We will use the feedback mechanism to collect the inputs in ratings and comments on the above factors monthly. Collect all the details in the database in both ratings in numbers, 1 to 5 where highest in best and lowest is bad and also Text comments. Based on the inputs provided we need to predict the candiate's state on whether he will continue or resign future. If the output is not continue, setup the call to action to trigger an email to his manager to take overlook on the employees assignment, Take 1 to 1 meeting to understand the pain points, Looks alternate resource to take over the assignment based on the domain or knowledge so that the delivery will not be impacted.
+
+B)
+Stage 1 - Domain Selection - Machine Learning (Ratings) and NLP (Comments)
+Stage 2 - Learning Selection - Unsupervised Learning
+
+C)
+Name of the project - Employee Resignation Threat
+
+D)
+Employee ID | Emp Name | Emp email ID | Emp Manager | Emp Manager ID | Work life Balance Rating | Salary Satisfaction | Work load rating ......... | Comments 
+
+There is no output, based on the ratings and comments we need to identify output for Risk or No Risk. 
+
+If Risk , Call to action to send an email to take action.
